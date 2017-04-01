@@ -142,9 +142,7 @@ for tweet in umich_tweets:
 conn.commit()
 
 
-quer="SELECT screen_name FROM Users"
-cur.execute(quer)
-l=cur.fetchall()
+
 
 
 
